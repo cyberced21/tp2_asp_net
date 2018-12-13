@@ -4,11 +4,12 @@
 
 <div>
 
-    <h2><%: Title %>This is your profile</h2>
+    <h2>This is your profile</h2>
     <h3> Welcome  
         <asp:Label ID="Lbl_user" runat="server" Text="____"></asp:Label>
         , please buy lots! 
     </h3>
+    <asp:Button ID="btn_Logout" Text="Logout" runat="server" OnClick="Logout_click" />
 
 </div>
 <br />

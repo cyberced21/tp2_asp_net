@@ -10,15 +10,15 @@
 namespace WebApplication4 {
     
     
-    public partial class Produits {
+    public partial class Users {
         
         /// <summary>
-        /// product control.
+        /// users control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView product;
+        protected global::System.Web.UI.WebControls.GridView users;
     }
 }

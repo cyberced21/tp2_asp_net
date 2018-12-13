@@ -20,7 +20,7 @@ namespace ConsoleApp1
 
         }
 
-        public List<User> GetAllUser()
+        public DataTable GetAllUser()
         {
 
             cnx.Open();
@@ -34,17 +34,11 @@ namespace ConsoleApp1
 
             MySqlDataReader dr = cmd.ExecuteReader();
 
-            List<User> list_user = new List<User>();
-
-            while (dr.Read())
-            {
-                //parcoure la table et cre une liste d'objet produit
-                list_user.Add(new User(dr[0].ToString(), dr[1].ToString()));
-            }
+            DataTable dt = new DataTable();
+            dt.Load(dr);
 
             cnx.Close();
-            //pour l'instant retourner un data reader su lequel on peut iterer je trouve ca pas si pire
-            return list_user;
+            return dt;
         }
 
         public User GetUserById(string user_id)

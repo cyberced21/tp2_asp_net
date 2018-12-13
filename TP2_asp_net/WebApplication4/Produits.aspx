@@ -2,22 +2,6 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
         <div>
-            <table style="width:100%">
-                <tr>
-                    <th>Name</th>
-                    <th>Category</th> 
-                    <th>Price</th>
-                </tr>
-                <tr>
-                    <td>Jill</td>
-                    <td>Smith</td> 
-                    <td>50</td>
-                </tr>
-                <tr>
-                    <td>Jill</td>
-                    <td>Smith</td> 
-                    <td>50</td>
-                </tr>
-            </table>
+             <asp:GridView ID="product" runat="server"></asp:GridView>
         </div>
 </asp:Content>

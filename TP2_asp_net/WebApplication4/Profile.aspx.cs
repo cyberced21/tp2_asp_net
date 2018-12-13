@@ -22,5 +22,11 @@ namespace WebApplication4
             
             pdao.CreateProduit(new Produit(product_id.Text,product_name.Text,product_category.Text,Convert.ToInt32(product_price.Text)));
         }
+            protected void Logout_click(object sender, EventArgs e)
+        {
+            Session.Clear();
+            Response.Redirect("/Login");
+        }
     }
+
 }

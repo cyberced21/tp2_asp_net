@@ -20,7 +20,7 @@ namespace ConsoleApp1
 
         }
 
-        public List<Produit> GetAllProduit()
+        public DataTable GetAllProduit()
         {
 
             cnx.Open();
@@ -34,16 +34,11 @@ namespace ConsoleApp1
 
             MySqlDataReader dr = cmd.ExecuteReader();
 
-            List<Produit> list_produit = new List<Produit>();
-
-            while (dr.Read())
-            {
-                //parcoure la table et fait une liste d'objet produit
-                list_produit.Add(new Produit(dr[0].ToString(), dr[1].ToString(), dr[2].ToString(),Convert.ToInt32(dr[4])));
-            }
+            DataTable dt = new DataTable();
+            dt.Load(dr);
 
             cnx.Close();
-            return list_produit;
+            return dt;
         }
 
         public Boolean CreateProduit(Produit produit)

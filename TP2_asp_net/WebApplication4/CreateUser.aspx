@@ -1,14 +1,12 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="WebApplication4.WebForm1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="CreateUser.aspx.cs" Inherits="WebApplication4.CreateUser" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title> creation des user</title>
 </head>
-
-    <body>
-        <form id="form1"  runat="server"  method="post">
+<body><form id="form1"  runat="server"  method="post">
         Username:
             <asp:TextBox ID="username" runat="server" />
             <asp:RequiredFieldValidator ID="usernameReq"
@@ -25,10 +23,7 @@
                 ErrorMessage="Password is required!"
                 SetFocusOnError="True" />
                 <br />
-            <asp:Button Text="Login" runat="server" PostBackUrl="~/Login" />
+            <asp:Button Text="Create the user" runat="server" OnClick="create_click"/>
         </form>
-        <div>
-            <a href="/CreateUser">Create a user</a>
-        </div>
-    </body>
+</body>
 </html>

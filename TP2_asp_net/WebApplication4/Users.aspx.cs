@@ -8,13 +8,14 @@ using System.Web.UI.WebControls;
 
 namespace WebApplication4
 {
-    public partial class Produits : System.Web.UI.Page
+    public partial class Users : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            ProduitDAO pdao = new ProduitDAO("clone_kijiji", "root", "root");
-            product.DataSource = pdao.GetAllProduit();
-            product.DataBind();
+            UserDao pdao = new UserDao("clone_kijiji", "root", "root");
+            users.DataSource = pdao.GetAllUser();
+            users.DataBind();
+
         }
     }
 }
