@@ -25,9 +25,7 @@
                 ErrorMessage="Password is required!"
                 SetFocusOnError="True" />
                 <br />
-            <asp:Button Text="submit" runat="server" PostBackUrl="~/About" />
-
-
+            <asp:Button Text="submit" runat="server" PostBackUrl="~/Login" />
         </form>
     </body>
 </html>

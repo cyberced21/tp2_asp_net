@@ -7,14 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace WebApplication4
 {
-    public partial class About : Page
+    public partial class Produits : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
-            Session["username"] = Request.Form["username"];
-            Session["password"] = Request.Form["password"];
-            Label4.Text = Request.Form["username"];
         }
     }
 }
