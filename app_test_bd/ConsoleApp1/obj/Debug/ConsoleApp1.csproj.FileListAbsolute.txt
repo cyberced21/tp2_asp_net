@@ -1,0 +1,11 @@
+c:\users\cyberced21\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+c:\users\cyberced21\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+c:\users\cyberced21\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+c:\users\cyberced21\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+c:\users\cyberced21\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+c:\users\cyberced21\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+c:\users\cyberced21\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\cyberced21\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\MySql.Data.dll
+C:\Users\cyberced21\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\Google.Protobuf.dll
+C:\Users\cyberced21\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\MySql.Data.xml
+C:\Users\cyberced21\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
